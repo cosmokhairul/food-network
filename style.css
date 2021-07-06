@@ -1,3 +1,9 @@
+#company-name{
+    padding-right: 50%;
+    font-size: 30px;
+    font-weight: bolder;
+    color: turquoise;
+}
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -48,8 +54,8 @@ p{
     padding-top: 200px;
 }
 .correct-padding2{
-    padding-top: 100px;
-    padding-right: 80px;
+    padding-top: 150px;
+    padding-right: 200px;
 }
 .correct-padding3{
     padding-top: 50px;
@@ -91,4 +97,18 @@ footer{
 }
 .grey-color{
     color: grey;
+}
+body{
+    margin: 0%;
+}
+.nav-bar li{
+    display: inline-block;
+    font-size: 18px;
+    padding: 12px;
+}
+.nav-bar{
+    background-color: wheat;
+    text-align: right;
+    padding-right: 50px;
+    margin: 0%;
 }
