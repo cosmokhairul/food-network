@@ -33,8 +33,8 @@ h2{
     width: 100%;
  }
  .small-size img{
-     width: 50%;
-     padding-left: 100px;
+     width: 40%;
+     padding-left: 150px;
  }
 
 p{
@@ -72,6 +72,8 @@ p{
 }
 .recipie-item img{
 width: 100%;
+height: 60%;
+border-radius: 20px;
 }
 #recipie-shadow{
 
