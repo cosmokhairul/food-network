@@ -20,6 +20,7 @@ h1{
 }
 .flexible-container{
     display: flex;
+    padding-bottom: 200px;
 }
 .half-width{
     width: 50%;
@@ -29,11 +30,49 @@ h1{
 .half-width img{
     width: 100%;
  }
+ .small-size img{
+     width: 50%;
+     padding-left: 100px;
+ }
 
 p{
     font-size: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 .correct-padding{
     padding-top: 250px;
+}
+.about-banner{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 0px;
+}
+.center-align{
+    text-align: center;
+}
+.recipie-item{
+    width: 27%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.recipie-item img{
+    width: 300px;
+    height: 200px;
+}
+#recipie-shadow{
+
+}
+footer{
+    text-align: center;
+    background-color: #10101d;
+    padding-top: 25px;
+    padding-bottom: 70px;
+    color: white;
+}
+.grey-color{
+    color: grey;
 }
